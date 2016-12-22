@@ -384,6 +384,7 @@ function onInputKeyDown(event) {
 	optionRenderer	|	func	|	undefined	|	function which returns a custom way to render the options in the menu
 	options 	|	array	|	undefined	|	array of options
 	placeholder 	|	string\|node	|	'Select ...'	|	field placeholder, displayed when there's no value
+	resetCurrentValues | bool | false | resets the internal state of selected options. If you use this props you should set it back to false after you have called it so you do not keep reseting the state.
 	scrollMenuIntoView |	bool	|	true		|	whether the viewport will shift to display the entire menu when engaged
 	searchable 	|	bool	|	true		|	whether to enable searching feature or not
 	searchPromptText |	string\|node	|	'Type to search'	|	label to prompt for search input
